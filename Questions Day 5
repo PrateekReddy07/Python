@@ -1,0 +1,155 @@
+1. Given a string s consisting of words and spaces, return the length of the last word in the
+string.A word is a maximal substring consisting of non-space characters only.
+Test Case:
+Input: s = "Hello World"
+Output: 5
+Input: s = " fly me to the moon "
+Output: 4
+Input: s = "luffy is still joyboy"
+Output: 6
+Input: s = "123"
+Output: 3
+Input: s = " 45&29 8*6^4"
+Output: 5
+2. In an organization they decide to give bonus to all the employees on New Year. A 5%
+bonus on salary is given to the grade A workers and 10% bonus on salary to the grade B
+workers. Write a program to enter the salary and grade of the employee. If the salary of the
+employee is less than $10,000 then the employee gets an extra 2% bonus on salary Calculate
+the bonus that has to be given to the employee and print the salary that the employee will get.
+Sample Input & Output:
+Enter the grade of the employee: B
+Enter the employee salary: 50000
+Salary=50000
+Bonus=5000.0
+Total to be paid:55000.0
+Test cases:
+1. Enter the grade of the employee: A
+Enter the employee salary: 8000
+2. Enter the grade of the employee: C
+Enter the employee salary: 60000
+3. Enter the grade of the employee: B
+Enter the employee salary: 0
+4. Enter the grade of the employee: 38000
+Enter the employee salary: A
+5. Enter the grade of the employee: B
+Enter the employee salary: -8000
+3. Given an integer n, return the least number of perfect square numbers that sum to n.
+A perfect square is an integer that is the square of an integer; in other words, it is the product
+of some integer with itself. For example, 1, 4, 9, and 16 are perfect squares while 3 and 11 are
+not.
+Test cases:
+1.Input: n = 12 output: 3
+2. Input: n = 13, Output: 2
+3.Input : n= 1, Output: 1
+4.Input: n=4, Output: 2
+5.Input: n=3, Output: 1
+4. Little Robert likes mathematics. Today his teacher has given him two integers and asked
+him to find out how many integers can divide both the numbers. Would you like to help him
+in completing his school assignment? For each test case, print “YEAH” if „prod‟ is divisible
+by „sum‟, otherwise print “NAH”.
+HINT:
+Test Cases:
+1. Enter the numbers: 60 48
+Output: NAH
+2. 4, 8
+3. -10,0
+4. 12,34
+5.16,17
+5. A peak element is an element that is strictly greater than its neighbors.Given a 0-
+indexed integer array nums, find a peak element, and return its index. If the array contains
+multiple peaks, return the index to any of the peaks.You may imagine that nums[-1] =
+nums[n] = -∞. In other words, an element is always considered to be strictly greater than a
+neighbor that is outside the array.You must write an algorithm that runs in O(log n) time.
+Test Case:
+1.Input: nums = [1,2,3,1]
+Output: 2
+2.Input: nums = [1,2,1,3,5,6,4]
+Output: 5
+3.Input: nums = [5, 10, 20, 15]
+Output: 20
+4.Input: nums = [ 1, 3, 2, 4, 1, 0 ]
+Output: 4
+5.Input: nums = [1,1,1,3,2,1,2]
+Output: 3
+6. Implement a triangular array of the binomial coefficients that arises in probability theory,
+combinatorics, and algebra. Find the sum of elements in the nth row.
+Sample Input:
+Enter the number of rows: 5
+Enter the row number: 4
+Sample Output:
+
+
+Sum of elements in 4th row: 8
+Test Cases:
+1.0, -1
+2. 7,5
+3. -1,5
+4. 9, -5
+5. 10, 8
+7. Longest Substring with At Least K Repeating Characters
+Given a string s and an integer k, return the length of the longest substring of s such that the
+frequency of each character in this substring is greater than or equal to k.
+s consists of only lowercase English letters.
+Test cases:
+1.Input: s = "aaabb", k = 3
+Output: 3
+2.Input: s = "ababbc", k = 2
+Output: 5
+3. s= “ababab”, k=3
+4. s=”xyzxyz” k =2
+5.s=12345, k=0
+8. Given a matrix of size N * N containing only 0s and 1s, where 0 represents white and 1
+represents black. The task is to minimize the number of swaps to form a valid chessboard.
+Only 2 rows or 2 columns can be swapped with each other.If it is impossible to form a
+chessboard, return -1.
+Test Case:
+1.Input: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]
+Output: 2
+2.Input: board = [[0,1],[1,0]]
+Output: 0
+3.Input: board = [[1,0],[1,0]]
+Output: -1
+4.Input: [[0, 1, 0], [1, 0, 1], [1, 1, 0]]
+Output: -1
+5.Input: [[0, 1, 1, 0], [0, 1, 1, 0], [1, 0, 0, 1], [1, 0, 0, 1]]
+Output: 2
+9. Write a function shuffle(l1,l2) that takes as input two lists, 11 and l2, and returns a list
+consisting of the first element in l1, then the first element in l2, then the second element in l2,
+then the second element in l2, and so on. If the two lists are not of equal length, the remaining
+elements of the longer list are appended at the end of the shuffled output.
+Sample Input:
+Enter the number of elements of l1: 3
+Enter the element: 1
+Enter the element: 3
+Enter the element: 5
+Enter the number of elements of l2:5
+Enter the element: 2
+Enter the element: 4
+Enter the element: 6
+Enter the element: 8
+Enter the element: 10
+Sample output:
+Shuffled list=[1,2,3,4,5,6,8,10]
+Test cases:
+1. 0,4
+2. -1,1
+3. 5,5
+4. 10,5
+5. 6,9
+10. Reverse Words in a String
+Given an input string s, reverse the order of the words.
+A word is defined as a sequence of non-space characters. The words in s will be separated by
+at least one space.
+Return a string of the words in reverse order concatenated by a single space.
+Note that s may contain leading or trailing spaces or multiple spaces between two words. The
+returned string should only have a single space separating the words. Do not include any
+extra spaces.
+Test Cases:
+1.Input: s = "the sky is blue"
+Output: "blue is sky the"
+2.Input: s = " hello world "
+Output: "world hello"
+3.Input: s = "a good example"
+Output: "example good a"
+4. s= “apple is red”
+5.s= “Red rose”
